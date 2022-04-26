@@ -13,7 +13,7 @@ struct LandmarksApp: App {
   
   var body: some Scene {
     WindowGroup {
-      LandmarkDetailView()
+      LandmarkList()
       //            ContentView()
       //                .environment(\.managedObjectContext, persistenceController.container.viewContext)
     }
