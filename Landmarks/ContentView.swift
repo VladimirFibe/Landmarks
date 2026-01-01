@@ -1,19 +1,16 @@
-//
-//  ContentView.swift
-//  Landmarks
-//
-//  Created by Vladimir Fibe on 01.01.2026.
-//
-
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        VStack(alignment: .leading) {
+            Text("Turtle Rock")
+                .font(.title)
+            HStack {
+                Text("Joshua Tree National Park")
+                Spacer()
+                Text("California")
+            }
+            .font(.subheadline)
         }
         .padding()
     }
