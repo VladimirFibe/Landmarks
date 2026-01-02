@@ -6,7 +6,12 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		026C5D7D2F075E8E006B1C80 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 026C5D7C2F075E8E006B1C80 /* README.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		026C5D7C2F075E8E006B1C80 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		02F1D3F62F060FE3007878D8 /* Landmarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Landmarks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -32,6 +37,7 @@
 		02F1D3ED2F060FE3007878D8 = {
 			isa = PBXGroup;
 			children = (
+				026C5D7C2F075E8E006B1C80 /* README.md */,
 				02F1D3F82F060FE3007878D8 /* Landmarks */,
 				02F1D3F72F060FE3007878D8 /* Products */,
 			);
@@ -109,6 +115,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				026C5D7D2F075E8E006B1C80 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
