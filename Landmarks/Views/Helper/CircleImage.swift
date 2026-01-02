@@ -13,5 +13,5 @@ struct CircleImage: View {
 }
 
 #Preview {
-    CircleImage(image: landmarks[1].image)
+    CircleImage(image: Image("charleyrivers"))
 }
