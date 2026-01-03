@@ -50,6 +50,7 @@ struct BadgeBackground: View {
                 )
             )
         }
+        .aspectRatio(1, contentMode: .fit)
     }
     static let gradientStart = Color(
         red: 239.0 / 255.0,
